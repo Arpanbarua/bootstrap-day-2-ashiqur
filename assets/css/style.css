@@ -1,0 +1,208 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+}
+
+#nav ul li a {
+    text-transform: uppercase;
+    padding: 18px 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    position: relative;
+    display: inline-block;
+}
+
+#nav ul li a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: #353535;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#nav ul li a:hover::before {
+    visibility: visible;
+    width: 100%;
+    transition: 0.8s ease;
+}
+
+
+#nav {
+    padding: 0;
+}
+
+.offcanvas-header .image 
+{
+    margin-left: 30%;
+}
+
+
+/*-------- banner section start ----------*/
+
+#banner 
+{
+    padding-bottom: 40px;
+}
+
+#banner .waving {
+    color: #FFD233;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#banner p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+
+#banner .intro {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+
+#banner .img {
+    margin-top: 60px;
+}
+
+
+
+#banner h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+
+
+
+#banner .banner-link a:last-child {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    text-decoration: none;
+    outline: 1px solid #000;
+    border-radius: 20px;
+    padding: 16px 18px;
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+#banner .banner-link a:last-child:hover {
+    background: lightgoldenrodyellow;
+    color: #000;
+    outline: 2px solid #fc0;
+}
+
+
+
+#banner .banner-link .talk {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    padding: 16px 45px;
+    display: inline-flex;
+    color: #fff;
+    border-radius: 20px;
+    background: #fc0;
+
+}
+
+#banner .banner-link .talk:hover {
+    background: transparent;
+    color: #000;
+    outline: 2px solid #fc0;
+}
+
+
+
+#banner .banner-link {
+    margin-top: 40px;
+}
+
+#banner .banner-link span {
+
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+}
+
+#banner .follow
+{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#banner .follow p
+{
+    margin-bottom: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#banner .follow .icons
+{
+    
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#banner .follow .icons a
+{
+   display: inline-flex;
+   align-items: center;
+   line-height: 0;
+   background-color: #F4F3F3;
+   padding: 10px;
+   margin: 0 10px;
+   border-radius: 50%;
+   color: black;
+   transition: 0.7s;
+}
+
+#banner .follow .icons a:hover 
+{
+    transform: rotate(90deg);
+
+}
+
+
+
+
+/* 
+#banner .follow .row2 p 
+{
+    width: 40%;
+    display: inline-flex;
+}
+
+#banner .follow .row2 .icons 
+{
+    width: 50%;
+} */
+
+
+
+/*-------- bannner section end ----------*/
