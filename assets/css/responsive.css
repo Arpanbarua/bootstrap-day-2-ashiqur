@@ -6,6 +6,27 @@
   }
 
 
+  @media(max-width:1200px)
+  {
+      #banner .img 
+      {
+          margin-bottom: 40px;
+      }
+  
+      #branding .contains
+      {
+          padding-left: 10px;
+      }
+  
+      #branding .shape 
+      {
+          display: none;
+         
+      }
+  
+  
+  }
+
 @media(max-width:992px)
 {
     #nav 
@@ -38,10 +59,7 @@
     } */
 
     /*-------- bannner section start ----------*/
-    #banner
-    {
-        text-align: center;
-    }
+  
     #banner h4 
     {
         font-size: 40px;
@@ -61,9 +79,141 @@
     #banner 
     {
         padding-bottom: 20px;
+        text-align: center;
     }
 
+    #banner .mouse 
+    {
+        display: none;
+    }
+
+    #banner .follow
+    {
+        justify-content: center;
+    }
+
+   
     /*-------- banner section end ----------*/
    
+    /*-------- about css  ----------*/
+    #about
+    {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #about .contains 
+    {
+        padding-top: 30px;
+    }
+
+    #about .contains a 
+    {
+        margin-bottom: 20px;
+    }
+
+    #about .contains p 
+    {
+        width: 100%;
+    }
+
+    #about .contains h4
+    {
+        z-index: 3;
+    }
+
+    #about
+    {
+       position: relative;
+    }
+
+   
+    #about .shape
+    {
+           
+        top: 70px;
+        right: -90px;
+        transform: rotate(-90deg);
+        opacity: 0.1;
+    }
+    /*-------- about css  ----------*/
+
+
+    /*-------- cards css  ----------*/
+    
+    #cards .card-box
+    {
+        width: calc(100% - 32px);
+        
+        margin-bottom: 30px ;
+    }
+
+    /*-------- cards css  ----------*/
+
+
+    /*-------- branding css  ----------*/
+
+    #branding
+    {
+        text-align: center;
+    }
+
+    #branding .vector 
+    {
+        display: none;
+    }
+
+    #branding .contains
+    {
+        padding-top: 30px;
+        
+        
+    }
+
+    #branding .contains p
+    {
+        width: 100%;
+        text-align: justify;
+    }
+
+    #branding .shape 
+    {
+        position: absolute;
+        top: -50px;
+        right: 30px;
+        display: inline-block;
+    }
+
+    /*-------- branding css  ----------*/
+
+    /*-------- help css  ----------*/
+    #help .col-xl-7 .contains h4
+    {
+        text-align: center;
+    }
+
+    #help .project .d-flex .col-xl-3 p 
+{
+    
+font-size: 16px;
 
 }
+
+    #help .col-xl-7 .contains
+    {
+        padding-top: 20px;
+    }
+    #help .col-xl-7 .contains p
+    {
+        text-align: justify;
+    }
+
+    
+
+
+    /*-------- help css  ----------*/ 
+     
+
+
+}
+

@@ -39,17 +39,15 @@
     padding: 0;
 }
 
-.offcanvas-header .image 
-{
+.offcanvas-header .image {
     margin-left: 30%;
 }
 
 
 /*-------- banner section start ----------*/
 
-#banner 
-{
-    padding-bottom: 40px;
+#banner {
+    padding-bottom: 20px;
 }
 
 #banner .waving {
@@ -143,66 +141,387 @@
     line-height: 0;
 }
 
-#banner .follow
-{
+#banner .follow {
     display: flex;
     align-items: center;
     margin-top: 40px;
+
 }
 
-#banner .follow p
-{
+#banner .follow p {
     margin-bottom: 0;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 180%;
     color: #353535;
 }
 
-#banner .follow .icons
-{
-    
+#banner .follow .icons {
+
     display: flex;
     align-items: center;
-    
+
 
 }
 
-#banner .follow .icons a
-{
-   display: inline-flex;
-   align-items: center;
-   line-height: 0;
-   background-color: #F4F3F3;
-   padding: 10px;
-   margin: 0 10px;
-   border-radius: 50%;
-   color: black;
-   transition: 0.7s;
+#banner .follow .icons a {
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+    background-color: #F4F3F3;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 50%;
+    color: black;
+    transition: 0.7s;
 }
 
-#banner .follow .icons a:hover 
-{
+#banner .follow .icons a:hover {
     transform: rotate(90deg);
 
 }
 
-
-
-
-/* 
-#banner .follow .row2 p 
-{
-    width: 40%;
-    display: inline-flex;
+#banner {
+    position: relative;
 }
 
-#banner .follow .row2 .icons 
-{
-    width: 50%;
-} */
+#banner .mouse {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
 
+}
+
+#banner .mouse:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
 
 
 /*-------- bannner section end ----------*/
+
+#about {
+
+    margin: 50px 0;
+    background: linear-gradient(to right, #FED62A, #FBF8B1);
+    
+}
+
+#about .contains h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 26px;
+}
+
+#about .contains a {
+    outline: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    padding: 17px 44px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#about .contains a:hover {
+    background: #fff;
+    outline: 1px solid black;
+
+
+}
+
+#about .contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 45px;
+    width: 90%;
+    text-align: justify;
+}
+
+#about .container {
+    position: relative;
+}
+
+#about .shape {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*-------- cards css ----------*/
+#cards {
+    padding: 20px 0 50px 0;
+}
+
+#cards .card-box {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    text-align: center;
+    width: calc(33.33% - 32px);
+    margin: 16px;
+    padding: 47px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* #cards .card-box {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    text-align: center;
+    width: calc(33.33% - 32px);
+    margin: 16px;
+    padding: 47px;
+    cursor: pointer;
+  } */
+
+#cards .card-box h4 {
+    margin: 18px 0 14px 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+
+}
+/* 
+#cards .card-box img 
+{
+    margin-top: 20px;
+}  */
+
+
+#cards .card-box img:hover {
+    transform: scale(1.2);
+}
+
+#cards .card-box p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;
+   
+}
+
+
+/*-------- cards css ----------*/
+
+
+/*-------- branding css ----------*/
+
+#branding 
+{
+    margin: 40px 0;
+}
+
+#branding .image 
+{
+    padding-top: 15px;
+}
+
+
+#branding .container 
+{
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    border-radius: 30px;
+
+}
+
+#branding .contains
+{
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+
+#branding .contains h4
+{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 44px;
+color: #353535;
+}
+
+#branding .contains p
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 190%;
+color: #353535;
+width: 95%;
+
+
+margin: 21px 0 35px 0;
+}
+
+#branding .contains a 
+{
+    outline: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 17px;
+line-height: 180%;
+text-align: center;
+color: #353535;
+padding: 18px 38px;
+text-decoration: none;
+display: inline-block;
+margin-bottom: 30px;
+}
+
+#branding .vector 
+{
+    position: absolute;
+    bottom: 50px;
+    left: 210px;
+}
+
+#branding .shape 
+{
+    position: absolute;
+    top: -130px;
+    right: 60px;
+    display: inline-block;
+}
+
+
+/*-------- branding css ----------*/
+
+/*-------- help css ----------*/
+
+#help 
+{
+    padding: 50px 0;
+}
+
+#help .col-12 .d-flex 
+{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+background: #fff;
+border-radius: 20px;
+padding: 16px 29px;
+margin-bottom: 24px;
+}
+
+#help .d-flex img:nth-child(1)
+{
+    padding: 13px;
+    background-color: #55852F;
+    border-radius: 50%;
+
+}
+
+#help .col-12:nth-child(2) img
+{
+    background-color: #FED62A;
+
+}
+
+#help .col-12:nth-child(3) img
+{
+    background-color: #FF8D3A;
+
+}
+#help .d-flex .details
+{
+    padding-left: 18px;
+}
+
+#help .d-flex .details h4 
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #353535;
+}
+
+#help .d-flex .details p 
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 12px;
+line-height: 180%;
+color: #353535;
+margin-bottom: 0;
+}
+
+#help .col-xl-7 .contains
+{
+    text-align: right;
+}
+
+#help .col-xl-7 .contains h4 
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535;
+}
+#help .col-xl-7 .contains p
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;
+}
+
+
+#help .project
+{
+    margin-top: 30px;
+}
+
+#help .project .d-flex .col-xl-3 p 
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 180%;
+color: #353535;
+margin-top: 9px;
+text-align: right;
+}
+#help .project .d-flex .col-xl-3 h4
+{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 40px;
+text-align: right;
+color: #353535;
+}
+
+#help .project .d-flex .col-xl-3:last-child
+{
+   padding-left: 40px;
+}
+
+
+#help .project .d-flex
+{
+    text-align: right;
+}
+
+
+
+
+
+/*-------- help css ----------*/
