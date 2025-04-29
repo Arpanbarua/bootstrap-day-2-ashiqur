@@ -156,6 +156,7 @@
     #branding
     {
         text-align: center;
+        margin: 20px 0;
     }
 
     #branding .vector 
@@ -201,13 +202,18 @@ font-size: 16px;
 
     #help .col-xl-7 .contains
     {
-        padding-top: 20px;
+        padding-top: 10px;
+       
     }
     #help .col-xl-7 .contains p
     {
         text-align: justify;
     }
 
+    #help .col-xl-7 .project 
+    {
+        margin-bottom: 30px;
+    }
     
 
 

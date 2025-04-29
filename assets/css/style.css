@@ -384,6 +384,14 @@ display: inline-block;
 margin-bottom: 30px;
 }
 
+#branding .contains a:hover 
+{
+    background: #fff;
+    outline: 1px solid black;
+    color: #FF8D3A;
+
+}
+
 #branding .vector 
 {
     position: absolute;
@@ -473,6 +481,7 @@ margin-bottom: 0;
     font-size: 50px;
     text-align: right;
     color: #353535;
+    margin-bottom: 26px;
 }
 #help .col-xl-7 .contains p
 {
