@@ -221,6 +221,17 @@
 
     /*-------- experience css ----------*/
    
+    #experience 
+    {
+        padding: 30px ;
+    }
+
+
+    #experience .heading h4
+    {
+        margin-bottom: 30px;
+    }
+
     #experience .row .title::before 
     {
     
@@ -263,6 +274,8 @@
         position: relative;
     }
 
+
+
     #experience .container .row::before 
     {
         content: '';
@@ -281,9 +294,84 @@
         padding-bottom: 30px;
     }
 
-
-
     /*-------- experience css ----------*/
+
+    /*-------- expert comment ----------*/
+   
+    #expert 
+    {
+        text-align: center;
+    }
+    #expert .details h4 
+    {
+        font-size: 40px;
+    }
+
+    #expert .details p 
+    {
+        text-align: justify;
+    } 
+
+    #expert .details a 
+    {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+
+    #expert .skills
+    {
+        padding-top: 30px;
+        padding: 30px 30px 0 30px;
+        
+    }
+
+    /* #expert .skills .nav 
+    {
+        padding-left: 30px;
+    } */
+
+
+#expert .skills .links-select
+{
+    padding: 16px 32px;
+    
+}
+
+#expert .skills-list li
+{
+    text-align: left;
+}
+
+#expert .skills .contains .num-progress
+{
+    padding-right: 60px;
+}
+
+#expert .skills .contains .photoshop-progress
+{
+    padding-right: 100px;
+}
+
+#expert .skills .contains .xd-progress
+{
+    padding-right: 80px;
+}
+
+#expert .skills .contains .illustrator-progress
+{
+    padding-right: 115px;
+}
+
+
+
+
+
+
+
+
+
+    /*-------- expert css ----------*/
 
 
 }
