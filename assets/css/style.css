@@ -205,7 +205,7 @@
 
     margin: 50px 0;
     background: linear-gradient(to right, #FED62A, #FBF8B1);
-    
+
 }
 
 #about .contains h4 {
@@ -294,6 +294,7 @@
     color: #353535;
 
 }
+
 /* 
 #cards .card-box img 
 {
@@ -312,7 +313,7 @@
     line-height: 190%;
     text-align: center;
     color: #7a7a7a;
-   
+
 }
 
 
@@ -321,86 +322,76 @@
 
 /*-------- branding css ----------*/
 
-#branding 
-{
+#branding {
     margin: 40px 0;
 }
 
-#branding .image 
-{
+#branding .image {
     padding-top: 15px;
 }
 
 
-#branding .container 
-{
+#branding .container {
     background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
     border-radius: 30px;
 
 }
 
-#branding .contains
-{
+#branding .contains {
     margin-top: 20px;
     position: relative;
-    
+
 }
 
 
-#branding .contains h4
-{
+#branding .contains h4 {
     font-family: var(--second-family);
-font-weight: 700;
-font-size: 44px;
-color: #353535;
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
 }
 
-#branding .contains p
-{
+#branding .contains p {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 190%;
-color: #353535;
-width: 95%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    width: 95%;
 
 
-margin: 21px 0 35px 0;
+    margin: 21px 0 35px 0;
 }
 
-#branding .contains a 
-{
+#branding .contains a {
     outline: 1px solid #000;
     border-radius: 20px;
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 17px;
-line-height: 180%;
-text-align: center;
-color: #353535;
-padding: 18px 38px;
-text-decoration: none;
-display: inline-block;
-margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    padding: 18px 38px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
-#branding .contains a:hover 
-{
+#branding .contains a:hover {
     background: #fff;
     outline: 1px solid black;
     color: #FF8D3A;
 
 }
 
-#branding .vector 
-{
+#branding .vector {
     position: absolute;
     bottom: 50px;
     left: 210px;
 }
 
-#branding .shape 
-{
+#branding .shape {
     position: absolute;
     top: -130px;
     right: 60px;
@@ -412,70 +403,61 @@ margin-bottom: 30px;
 
 /*-------- help css ----------*/
 
-#help 
-{
+#help {
     padding: 50px 0;
 }
 
-#help .col-12 .d-flex 
-{
+#help .col-12 .d-flex {
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
-background: #fff;
-border-radius: 20px;
-padding: 16px 29px;
-margin-bottom: 24px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 16px 29px;
+    margin-bottom: 24px;
 }
 
-#help .d-flex img:nth-child(1)
-{
+#help .d-flex img:nth-child(1) {
     padding: 13px;
     background-color: #55852F;
     border-radius: 50%;
 
 }
 
-#help .col-12:nth-child(2) img
-{
+#help .col-12:nth-child(2) img {
     background-color: #FED62A;
 
 }
 
-#help .col-12:nth-child(3) img
-{
+#help .col-12:nth-child(3) img {
     background-color: #FF8D3A;
 
 }
-#help .d-flex .details
-{
+
+#help .d-flex .details {
     padding-left: 18px;
 }
 
-#help .d-flex .details h4 
-{
+#help .d-flex .details h4 {
     font-family: var(--font-family);
-font-weight: 600;
-font-size: 18px;
-line-height: 180%;
-color: #353535;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
 }
 
-#help .d-flex .details p 
-{
+#help .d-flex .details p {
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 12px;
-line-height: 180%;
-color: #353535;
-margin-bottom: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+    margin-bottom: 0;
 }
 
-#help .col-xl-7 .contains
-{
+#help .col-xl-7 .contains {
     text-align: right;
 }
 
-#help .col-xl-7 .contains h4 
-{
+#help .col-xl-7 .contains h4 {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 50px;
@@ -483,8 +465,8 @@ margin-bottom: 0;
     color: #353535;
     margin-bottom: 26px;
 }
-#help .col-xl-7 .contains p
-{
+
+#help .col-xl-7 .contains p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -494,43 +476,153 @@ margin-bottom: 0;
 }
 
 
-#help .project
-{
+#help .project {
     margin-top: 30px;
 }
 
-#help .project .d-flex .col-xl-3 p 
-{
+#help .project .d-flex .col-xl-3 p {
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-line-height: 180%;
-color: #353535;
-margin-top: 9px;
-text-align: right;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+    margin-top: 9px;
+    text-align: right;
 }
-#help .project .d-flex .col-xl-3 h4
-{
+
+#help .project .d-flex .col-xl-3 h4 {
     font-family: var(--second-family);
-font-weight: 700;
-font-size: 40px;
-text-align: right;
-color: #353535;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
 }
 
-#help .project .d-flex .col-xl-3:last-child
-{
-   padding-left: 40px;
+#help .project .d-flex .col-xl-3:last-child {
+    padding-left: 40px;
 }
 
 
-#help .project .d-flex
-{
+#help .project .d-flex {
     text-align: right;
 }
 
 
-
-
-
 /*-------- help css ----------*/
+
+/*-------- experience css  ----------*/
+
+#experience 
+{
+    padding: 20px 0 48px 0;
+}
+
+#experience .heading h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 90px;
+}
+
+#experience .row .col-xl-3 h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#experience .row .col-xl-3 p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+
+#experience .row .col-xl-6 p 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 200%;
+color: #7a7a7a;
+}
+
+#experience .row .col-xl-6 h4
+{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+line-height: 180%;
+color: #353535;
+}
+
+
+#experience .row .title 
+{
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#experience .row .title::before 
+{
+    content: "";
+    position: absolute;
+    stroke-width: 2px;
+    height: 42px;
+    width: 42px;
+    border: 2px dashed #7A7A7A ;
+    border-radius: 50%;
+    top: -1px;
+    right: -173px;
+    background: #fff;
+    z-index: 2;
+}
+
+#experience .row .title::after
+{
+    content: "";
+    position: absolute;
+    height: 21px;
+    width: 21px;
+    background: #52AB70 ;
+    top: 10px;
+    right: -163px;
+    border-radius: 50%;
+    z-index: 3;
+} 
+
+#experience .service .title::after 
+{
+    background: #F17676;
+}
+
+#experience .solution .title::after
+{
+    background: #FFD233;
+} 
+
+
+
+
+
+
+
+#experience .line
+{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    border-right: 2px dashed #7a7a7a; 
+    top: 0;
+    right: -154px;
+    
+}
+
+
+
+
+/*-------- experience css  ----------*/
