@@ -102,6 +102,11 @@
         text-align: center;
     }
 
+    #about .img img 
+{
+    transform: scaleX(-1)
+}
+
     #about .contains 
     {
         padding-top: 30px;
