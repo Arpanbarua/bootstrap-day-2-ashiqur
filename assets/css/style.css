@@ -842,7 +842,7 @@ padding-right: 130px;
 #services 
 {
     padding: 70px 0;
-    margin: 48px 0;
+    margin-top: 48px ;
     background: #FFF7D5;
 }
 
@@ -919,6 +919,68 @@ color: #7a7a7a;
 }
 
 
-
-
 /*-------- services css ----------*/
+
+#feedback 
+{
+    padding: 30px 0;
+    background: #FBFBFB;
+}
+
+#feedback .contains
+{
+    padding-top: 50px;
+}
+
+#feedback .contains p 
+{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+    width: 55%;
+    margin-bottom: 30px;
+}
+
+#feedback .contains h4
+{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    color: #353535;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+#feedback .details .quote
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+color: #7a7a7a;
+margin-bottom: 28px;
+width: 90%;
+}
+
+
+#feedback .details .heading h4 
+{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 200%;
+color: #353535;
+}
+
+#feedback .details .heading p 
+{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+
+color: #7a7a7a;
+}

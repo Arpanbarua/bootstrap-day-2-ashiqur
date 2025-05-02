@@ -375,7 +375,7 @@
 #services 
 {
     padding: 30px 0;
-    margin: 30px 0;
+    margin-top: 30px ;
     background: #FFF7D5;
 }
 
@@ -398,7 +398,40 @@
 
 /*-------- services css ----------*/
 
+/*--------  feedback css  ----------*/
 
+
+#feedback .contains
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+#feedback .contains h4 
+{
+    width: 100%;
+}
+
+#feedback .contains p 
+{
+    width: 100%;
+    text-align: justify;
+}
+
+#feedback .details
+{
+    margin-top: 40px;
+}
+
+#feedback .details .quote 
+{
+    width: 100%;
+    text-align: justify;
+}
+
+/*--------  feedback css  ----------*/
 
 
 
