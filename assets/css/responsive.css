@@ -368,15 +368,38 @@
     padding-right: 115px;
 }
 
-
-
-
-
-
-
-
-
     /*-------- expert css ----------*/
+
+
+/*-------- services css ----------*/
+#services 
+{
+    padding: 30px 0;
+    margin: 30px 0;
+    background: #FFF7D5;
+}
+
+#services .contains h4 
+{
+    font-size: 40px;
+}
+
+#services .contains p 
+{
+    width: 100%; 
+    text-align: justify;
+}
+
+#services .row .card-box
+{
+    width: calc(100% - 38px );
+    margin-bottom: 30px;
+}
+
+/*-------- services css ----------*/
+
+
+
 
 
 }
