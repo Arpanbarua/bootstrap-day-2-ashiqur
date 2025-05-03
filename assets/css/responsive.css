@@ -29,6 +29,10 @@
 
 @media(max-width:992px)
 {
+    /* html, body 
+    {
+        overflow-x: hidden;
+    } */
     #nav 
     {
         padding: 13px 0;
@@ -48,10 +52,10 @@
         text-transform: uppercase;
     }
 
-    #offcanvasRight ul li
+    /* #offcanvasRight ul li
     {
         padding: 10px 0;
-    }
+    } */
 
     /* #nav .navbar-toggler:hover 
     {
@@ -137,7 +141,7 @@
     {
            
         top: 70px;
-        right: -90px;
+        right: -52px;
         transform: rotate(-90deg);
         opacity: 0.1;
     }
